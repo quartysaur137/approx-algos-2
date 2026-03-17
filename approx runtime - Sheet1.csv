@@ -1,0 +1,68 @@
+Problem Name,Graph-based?,Algo # (within problem),Name/Source,Runtime,10^10 compute (regular/sparse),10^10 compute (dense),10^15 compute (regular/sparse),10^15 compute (dense),10^20 compute (regular/sparse),10^20 compute (dense),10^25 compute (regular/sparse),10^25 compute (dense),10^30 compute (regular/sparse),10^30 compute (dense),Approx factor,(approx factor relative position)
+Maximum Flow,Y,1,,,46992,2154,13060000,100000,3745000000,4641000,1094000000000,215400000,324000000000000,10000000000,1,1
+Maximum Flow,Y,2,,,168321,2595,195900000,165975,274900000000,11120000,426600000000000,764600000,705100000000000000,53420000000,1-eps,1.01
+Maximum Flow,Y,3,,,11449,453,8466000,24769,8848000000,1634000,11080000000000,119300000,15500000000000000,9269000000,1-eps,1.01
+Maximum Flow,Y,4,,,905,61,374993,1302,286700000,36652,294900000000,1184000,359200000000000,41480000,1-eps,1.01
+Maximum Flow,Y,5,,,282,40,94821,869,89360000,28608,141800000000,1181000,303800000000000,55830000,1-eps,1.01
+Maximum Flow,Y,6,,,147,37,40449,1096,34540000,55796,52030000000,3789000,107900000000000,304100000,1-eps,1.01
+Vertex Cover,Y,1,,,95,95,142,142,190,190,237,237,285,285,1,1
+Vertex Cover,Y,2,,,10000000000,100000,1000000000000000,31620000,100000000000000000000,10000000000,10000000000000000000000000,3162000000000,1000000000000000000000000000000,1000000000000000,2,2
+Vertex Cover,Y,3,,,,,,,1905000,1905000,,,,,2-2/Delta,1.999
+Vertex Cover,Y,4,,,,,,,21540000000000,100000000,,,,,2-2/sqrt(n),1.998
+Vertex Cover,Y,5,,,,,,,2157000000,4641000,,,,,2-2/sqrt(n),1.998
+Vertex Cover,Y,6,,,,,,,10000000000,4641000,,,,,2-(log log n)/log n,1.996
+Vertex Cover,Y,7,,,,,,,2157000000,4641000,,,,,2-(log log n)/log n,1.996
+Vertex Cover,Y,8,,,,,,,10000000000,4641000,,,,,2-O(log log n)/log n,1.996
+Vertex Cover,Y,9,,,,,,,10000000000,4641000,,,,,2/(1+eps),1.995
+Vertex Cover,Y,10,,,,,,,517947,3651,,,,,2-(2-o(1))(log log Delta)/log Delta,1.996
+Vertex Cover,Y,11,,,,,,,80,80,,,,,2-Theta(1/sqrt(log n)),1.993
+Longest Path Problem,Y,1,,,,,,,20,20,,,,,1,1
+Longest Path Problem,Y,2,,,,,,,2,2,,,,,1,1
+Longest Path Problem,Y,3,,,,,,,23,21,,,,,1,1
+Longest Path Problem,Y,4,,,,,,,4641000,100000,,,,,(n log log n)/log n,7.985
+Longest Path Problem,Y,5,,,,,,,10000000000,10000000000,,,,,(n log log n)/log n,7.985
+Longest Path Problem,Y,6,,,,,,,308589,18973,,,,,n/log n,7.98
+Longest Path Problem,Y,7,,,,,,,6,6,,,,,n/log n,7.98
+Longest Path Problem,Y,8,,,,,,,10000,10000,,,,,3n log^2(log n)/log^2 n,7.9775
+Longest Path Problem,Y,9,,,,,,,40,40,,,,,(4n log log n)/log^2 n,7.975
+Longest Path Problem,Y,10,,,,,,,1,1,,,,,(4n log log n)/log^2 n,7.975
+Longest Path Problem,Y,11,,,,,,,658,293,,,,,O(n/e^sqrt(log n/24 log log n)),7.93
+Longest Path Problem,Y,12,,,,,,,6449,464,,,,,O(n/e^sqrt(0.2 log n)),7.9
+"Maximum Cut, Undirected",Y,1,,,,,,,52,37,,,,,1,1
+"Maximum Cut, Undirected",Y,2,,,,,,,60,54,,,,,1,1
+"Maximum Cut, Undirected",Y,3,,,,,,,100000000000000000000,10000000000,,,,,0.5,2
+"Maximum Cut, Undirected",Y,4,,,,,,,10000000000,4641000,,,,,0.5 + 2/m,1.999
+"Maximum Cut, Undirected",Y,5,,,,,,,4641000,4641000,,,,,0.5 + (n-1)/(4m),1.999
+"Maximum Cut, Undirected",Y,6,,,,,,,2363000000000000000,499200000,,,,,0.5 + 1/(2n),1.999
+"Maximum Cut, Undirected",Y,7,,,,,,,100000000000000000000,10000000000,,,,,0.5 + 1/(2n),1.999
+"Maximum Cut, Undirected",Y,8,,,,,,,100000000000000000000,10000000000,,,,,0.5 + 1/(2*Delta),1.999
+"Maximum Cut, Undirected",Y,9,,,,,,,517947,517947,,,,,0.878,1.139
+"Maximum Cut, Directed",Y,1,,,,,,,60,54,,,,,1,1
+"Maximum Cut, Directed",Y,2,,,,,,,517947,517947,,,,,0.79607,1.257
+"Maximum Cut, Directed",Y,3,,,,,,,719,719,,,,,0.859387,1.1637
+"Maximum Cut, Directed",Y,4,,,,,,,719,719,,,,,0.859643,1.1633
+"Maximum Cut, Directed",Y,5,,,,,,,719,719,,,,,0.863,1.158
+"Maximum Cut, Directed",Y,6,,,,,,,719,719,,,,,0.87401,1.145
+"Maximum Cut, Directed",Y,7,,,,,,,719,719,,,,,0.87446,1.144
+Maximum Bisection,Y,1,,,,,,,60,54,,,,,1,1
+Maximum Bisection,Y,2,,,,,,,100000000000000000000,100000000000000000000,,,,,0.5,2
+Maximum Bisection,Y,3,,,,,,,517947,517947,,,,,0.651,1.537
+Maximum Bisection,Y,4,,,,,,,517947,517947,,,,,0.699,1.431
+Maximum Bisection,Y,5,,,,,,,80,80,,,,,0.7016,1.4254
+Maximum Bisection,Y,6,,,,,,,517947,517947,,,,,0.7017,1.4252
+Maximum Bisection,Y,7,,,,,,,80,80,,,,,0.7028,1.423
+Maximum Bisection,Y,8,,,,,,,1,1,,,,,0.85,1.177
+Maximum Bisection,Y,9,,,,,,,1,1,,,,,0.8776,1.14
+Independent Set,Y,1,,,,,,,253,253,,,,,1,1
+Independent Set,Y,2,,,,,,,100000000000000000000,10000000000,,,,,~d/2,7.995
+Independent Set,Y,3,,,,,,,21540000000000,100000000,,,,,~d/2,7.995
+Independent Set,Y,4,,,,,,,10000000000,4641000,,,,,O(n/(log^2 n)),7.97
+Independent Set,Y,5,,,,,,,1,1,,,,,~Delta/5,7.992
+Independent Set,Y,6,,,,,,,15,15,,,,,~Delta/4,7.9925
+,,,,,,,,,,,,,,,,
+Independent Set,Y,8,,,,,,,100,100,,,,,~Delta/6,7.9917
+Independent Set,Y,9,,,,,,,10000,2154,,,,,O(Delta/log log Delta),7.99
+Independent Set,Y,10,,,,,,,21540000000000,100000000,,,,,~2d/5,7.994
+Independent Set,Y,11,,,,,,,100000000000000000000,74,,,,,~d/2,7.995
+Independent Set,Y,12,,,,,,,517947,3651,,,,,O((Delta log log Delta)/log Delta),7.985
+Independent Set,Y,13,,,,,,,224,123,,,,,O(n(log log n)^2/log^3 n),7.9675
